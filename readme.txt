@@ -3,7 +3,7 @@ Python Libraries used:
 2. pandas
 3. matplotlib.pyplot
 4. sklearn.linear_model
-5. from sklearn.metrics
+5. sklearn.metrics
 6. xgboost
 
 Workflow:
