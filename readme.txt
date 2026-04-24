@@ -8,6 +8,7 @@ Python Libraries used:
 
 Workflow:
 1. Data Ingestion: I loaded the 3-dataset provided into the jupyter notebook.
+
 2. Data Cleaning:
 a. A scatter plot was plotted to check for duplicate timestamps, then the duplicate timestamp issue was resolved by aggregating the data using the mean for each timestamp. (I did think about using different aggregate functions for different columns, but only mean made sense to me)
 b. A bar diagram was plotted to check for irregularity in the frequency of timestamps. Irregular timestamp intervals were standardized by converting the data to a fixed hourly frequency using “asfreq(‘h’)”, followed by forward filling to handle missing values without introducing data leakage.
